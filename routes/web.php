@@ -18,6 +18,14 @@ Route::get('/',
 			
 
 		]);
+Route::get('/demandes','DemandesController@demandes')->name('demandes');
+
+
+
+
+
+Route::get('/parametre','ParametreController@parametre')->name('parametre');
+
 	
 // Route qui permet de gerer la vente
 
@@ -41,6 +49,10 @@ Route::get('/contact',
 		'as' => 'contact',
 		'uses' => 'ContactController@getForm'
     ]);
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

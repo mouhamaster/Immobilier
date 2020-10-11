@@ -210,7 +210,7 @@
             
                 <!-- Start Recent Projects Carousel -->
                 <div class="recent-projects">
-                    <h4 class="title"><span>Derniers produits immobiliers publiés</span></h4>
+                    <h4 class="title"><span>Annonces ventes immobiliers</span></h4>
                     <div class="projects-carousel touch-carousel">
                     
                         <div class="portfolio-item item">

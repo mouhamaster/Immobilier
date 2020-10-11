@@ -1,87 +1,67 @@
 @extends('Layouts/master2')
 
 @section('content')
-	<div id="container">
-		<div class="container vente" >
-			<div class="row">
-				<div class="col-md-3"></div>
-				<div class="col-md-6 phar">
-					<h2 style="margin-top: 50px; color: white;">Home/Post</h2>
-				</div>
-				<div class="col-md-3"></div>
-				
-			</div>
-			
-		</div>
-		<div class="container" style="margin-top: 50px;">
-			<div class="row">
-				<div class="col-md-offset-3 col-md-7">
-	       	         <div class="panel panel-default">
-	       		        <div class="panel-heading">
-	       			       <div class="panel-title">
-			       				<h3 class="contact">Ajouter une nouvelle offre</h3>
-			       			</div>
-	       			<div class="panel-body">
-	       				<form action="">
-	       				<div class="form-groupe">
-	       					<label for="ofrre">*Offre:</label>
-	       					<select class="form-control " id="sel1" required="true" style="width: 600px; ">
-                                <option>Location temporaire</option>
-                                <option>Location Mensuel</option>
-                                <option>Vente</option>
-                            </select>
-	       				</div>
-	       				
-	       				<div class="form-inline">
-	       					<label for="ofrre">*Type Bien Immobilier:</label>
-	       					<select class="form-control " id="sel1" required="true" style="width: 600px; ">
-                                <option>Location temporaire</option>
-                                <option>Location Mensuel</option>
-                                <option>Vente</option>
-                            </select>
-	       				</div>
-	       				<div class="form-group">
-	       					<label for="ofrre">*Localisation</label>
-	       					<input type="text" id="orangeForm-adresse" placeholder="Ou-est ce que vous vous trouvez ?" class="form-control validate w-500" required="true">
-	       				</div>
-	       				<div class="form-group">
-	       					<label for="ofrre">*Prix du service:</label>
-	       					 <input type="tel" id="orangeForm-tel" class="form-control validate w-500" required="true">
-	       				</div>
+    <div id="content">
+        <div class="container ct">
+            <div class="listedemande">
+                <div class="rowhead">
+                    <h3> Demandes de réservation (4) - annonce n°12</h3> 
+                </div>
+                <div class="rowuser">
+                    <div class="row">
+                            <div class="col-md-9 col-xs-7">
+                                <span>Mamy Ndiaye</span><br>
+                                <span class="fa fa-phone"></span><span>&nbsp 77 660 08 40</span>
+                            </div>
+                            <div class="col-md-3 col-xs-2">
+                                <button class="btn btn-success">Valider</button>
+                            </div>
+                        </div>
+                    
+                </div>
+                <div class="rowuser">
+                    <div class="row">
+                            <div class="col-md-9">
+                                <span>Abdou Diallo</span><br>
+                                <span class="fa fa-phone"></span><span>&nbsp 77 203 08 10</span>
+                            </div>
+                            <div class="col-md-3">
+                                <button class="btn btn-success">Valider</button>
+                            </div>
+                        </div>
+                    
+                </div>
+                 <div class="rowuser">
+                    <div class="row">
+                            <div class="col-md-9">
+                                <span>Mamy Ndiaye</span><br>
+                                <span class="fa fa-phone"></span><span>&nbsp 77 660 08 40</span>
+                            </div>
+                            <div class="col-md-3">
+                                <button class="btn btn-success">Valider</button>
+                            </div>
+                        </div>
+                    
+                </div>
+                <div class="rowuser">
+                    <div class="row">
+                            <div class="col-md-9">
+                                <span>Mamy Ndiaye</span><br>
+                                <span class="fa fa-phone"></span><span>&nbsp 77 660 08 40</span>
+                            </div>
+                            <div class="col-md-3">
+                                <button class="btn btn-success">Valider</button>
+                            </div>
+                        </div>
+                    
+                </div>
 
-	       				<div class="form-inline">
-	       					<button class="btn btn-default"> upload</button>
-	       					 <input type="tel" id="orangeForm-tel" class="form-control validate w-500" required="true" style="width: 400px;">
-	       					 <button class="btn btn-danger">select file</button>
-	       				</div>
-	       				<div class="form-group">
-	       					<label for="ofrre">*Description:</label>
-	       					 <textarea class="form-control h-300" placeholder="faites une description du bien">
-	       					 	
-	       					 </textarea>
-	       				</div>
-	       				<div class="form-group">
-	       					<div class="row">
-	       						<label for="paiement">*Paiement des frais de publication</label> <br>
-	       						<span>Orange Money</span>
-	       						<input type="radio" name="Orange Money" class="form control">
-	       						<span>Tigo Cash</span>
-	       						<input type="radio" name="Tigo Cash" class="form control ">
+                
+            </div>
 
-	       						<span>Wave</span>
-	       						<input type="radio" name="Wave" class="form control" >
-	       					</div>
-	       				</div>
-	       				</form>
-	       				<button class="btn btn-primary " type="submit" style="float: right;">Valider</button>
-	       				<button class="btn btn-danger" type="submit" style="float: right;">Annuler</button>
-	       			</div>
-	       			</div>
-	       		</div>
-	       	</div>
-	       </div>
-			</div>
-		</div>
+            
+        </div>
+    </div>
 		<footer>
         <div class="container">
             <div class="row footer-widgets"> 

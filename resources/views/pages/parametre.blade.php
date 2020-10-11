@@ -1,87 +1,71 @@
 @extends('Layouts/master2')
 
 @section('content')
-	<div id="container">
-		<div class="container vente" >
-			<div class="row">
-				<div class="col-md-3"></div>
-				<div class="col-md-6 phar">
-					<h2 style="margin-top: 50px; color: white;">Home/Post</h2>
-				</div>
-				<div class="col-md-3"></div>
-				
-			</div>
-			
-		</div>
-		<div class="container" style="margin-top: 50px;">
-			<div class="row">
-				<div class="col-md-offset-3 col-md-7">
-	       	         <div class="panel panel-default">
-	       		        <div class="panel-heading">
-	       			       <div class="panel-title">
-			       				<h3 class="contact">Ajouter une nouvelle offre</h3>
-			       			</div>
-	       			<div class="panel-body">
-	       				<form action="">
-	       				<div class="form-groupe">
-	       					<label for="ofrre">*Offre:</label>
-	       					<select class="form-control " id="sel1" required="true" style="width: 600px; ">
-                                <option>Location temporaire</option>
-                                <option>Location Mensuel</option>
-                                <option>Vente</option>
-                            </select>
-	       				</div>
-	       				
-	       				<div class="form-inline">
-	       					<label for="ofrre">*Type Bien Immobilier:</label>
-	       					<select class="form-control " id="sel1" required="true" style="width: 600px; ">
-                                <option>Location temporaire</option>
-                                <option>Location Mensuel</option>
-                                <option>Vente</option>
-                            </select>
-	       				</div>
-	       				<div class="form-group">
-	       					<label for="ofrre">*Localisation</label>
-	       					<input type="text" id="orangeForm-adresse" placeholder="Ou-est ce que vous vous trouvez ?" class="form-control validate w-500" required="true">
-	       				</div>
-	       				<div class="form-group">
-	       					<label for="ofrre">*Prix du service:</label>
-	       					 <input type="tel" id="orangeForm-tel" class="form-control validate w-500" required="true">
-	       				</div>
+    <div id="content">
+        <div class="container ct">
+            <h2>Parametres généraux</h2>
+            <div class="listedemande">
+                <div class="rowhead">
+                    <h3>Informations personnelles</h3> 
+                </div>
+                <div class=" row rowuser">
+                    <div class="col-md-12">
+                     <span><b>Prénom et nom : </b></span>&nbsp&nbsp<span>Abdou karim</span>
+                 </div>
+                            
+                </div>
+                    
+                <div class=" row rowuser2">
+                    <div class="col-md-12">
+                            <span><b>Téléphone : </b></span>
+                            </span><span>&nbsp 77 660 08 40</span>
+                         <span class="fa fa-edit bl modify">Modifier</span>
+                    </span>
+                        
+                    </div>
+                    <div class="row">
+                            <div class="form-group col-md-12 .rowhid fr2">  
+                                <label class="edt"><b>Nouveau numéro :</b></label> <input class="inputedit" type="number" name="tel"><br><br>
+                                <button class="valid">Valider</button>
+                            </div>
+                        
+                    </div>
+                    
+                    </div>
 
-	       				<div class="form-inline">
-	       					<button class="btn btn-default"> upload</button>
-	       					 <input type="tel" id="orangeForm-tel" class="form-control validate w-500" required="true" style="width: 400px;">
-	       					 <button class="btn btn-danger">select file</button>
-	       				</div>
-	       				<div class="form-group">
-	       					<label for="ofrre">*Description:</label>
-	       					 <textarea class="form-control h-300" placeholder="faites une description du bien">
-	       					 	
-	       					 </textarea>
-	       				</div>
-	       				<div class="form-group">
-	       					<div class="row">
-	       						<label for="paiement">*Paiement des frais de publication</label> <br>
-	       						<span>Orange Money</span>
-	       						<input type="radio" name="Orange Money" class="form control">
-	       						<span>Tigo Cash</span>
-	       						<input type="radio" name="Tigo Cash" class="form control ">
+                
+            </div>
+            <div class="identifiants">
+                <div class="rowhead">
+                    <h3>Identifiants</h3> 
+                </div>
+                <div class="row rowuserr">
+                    <div class="col-md-12 fr2">
+                            <span><b>Mot de passe</b></span>
+                            </span><span>&nbsp ********</span>
+                         <span class="fa fa-edit bl ">Modifier<span><br>
+                    </div>
+                    <div></div>
+                    </div>
+                    <div class="row">
+                            <div class="form-group col-md-12 fr3">  
+                                <label class="edt"><b>Nouveau mot de passe :</b></label> <input class="inputedit" type="number" name="tel"><br><br>
+                                <button class="valid">Valider</button>
+                            </div>
+                        
+                    </div>
+                    
+                    </div>
+                    
+                </div>
 
-	       						<span>Wave</span>
-	       						<input type="radio" name="Wave" class="form control" >
-	       					</div>
-	       				</div>
-	       				</form>
-	       				<button class="btn btn-primary " type="submit" style="float: right;">Valider</button>
-	       				<button class="btn btn-danger" type="submit" style="float: right;">Annuler</button>
-	       			</div>
-	       			</div>
-	       		</div>
-	       	</div>
-	       </div>
-			</div>
-		</div>
+                
+            </div>
+
+            
+        </div>
+    </div>
+
 		<footer>
         <div class="container">
             <div class="row footer-widgets"> 
